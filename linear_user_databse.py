@@ -33,23 +33,5 @@ class User:
     def __repr__(self):
         return f"User is {self.name}"
 
-neeraj = User("neeraj", "neeraj", "neeraj@gmail.com")
-akash = User("akash", "akash", "akash@gmail.com")
-bunty = User("bunty", "bunty", "bunty@gmail.com")
-chunnu = User("chunnu", "chunnu", "chunnu@gmail.com")
-dheeraj = User("dheeraj", "dheeraj", "dheeraj@gmail.com")
-deepak = User("deepak", "deepak", "deepak@gmail.com")
-user_database = UserDatabase()
-user_database.insert(neeraj)
-user_database.list_all()
-user_database.insert(akash)
-user_database.list_all()
-user_database.insert(bunty)
-user_database.list_all()
-user_database.insert(chunnu)
-user_database.list_all()
-user_database.insert(dheeraj)
-user_database.list_all()
-user_database.insert(deepak)
-user_database.list_all()
+
 

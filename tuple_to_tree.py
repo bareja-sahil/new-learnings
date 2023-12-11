@@ -27,10 +27,10 @@ def tree_to_tuple(tree_object):
         return tree_object
 
 
-
-tree_tuple = (((1, 3, None), 2, ((None, 3, 4), 5, (6, 7, 8))))
-x = parse_tuple(tree_tuple)
-print(x)
-y = tree_to_tuple(x)
-print(y)
-print(tree_tuple == y)
+#
+# tree_tuple = (((1, 3, None), 2, ((None, 3, 4), 5, (6, 7, 8))))
+# x = parse_tuple(tree_tuple)
+# print(x)
+# y = tree_to_tuple(x)
+# print(y)
+# print(tree_tuple == y)
